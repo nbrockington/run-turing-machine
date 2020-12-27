@@ -1,2 +1,2 @@
 # run-turing-machine
-Script to emulate a TM given a transition function and an input
+Script to return the result of running a TM, given the transition function and the input.
