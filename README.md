@@ -23,11 +23,11 @@ where current_state, new_state, input_symbol, write_symbol are strings; dir is i
               ( 'S0' , '∆' ) : ( 'SH' , '0' , 1 ) ,
               ( 'S1' , '0' ) : ( 'S1' , '0' , 1 ) ,
               ( 'S1' , '1' ) : ( 'S0' , '1' , 1 ) ,
-              ( 'S1' , '∆' ) : ( 'SH' , '1' , 1 ) }
+              ( 'S1' , '∆' ) : ( 'SH' , '1' , 1 ) }`
 
-input_parity = [ "0" , "1" , "1" , "0" , "1" , "0" , "0" ]
+`input_parity = [ "0" , "1" , "1" , "0" , "1" , "0" , "0" ]`
 
->>> run_TM( tf_switch , "S0" , input_switch , 0 )[2]`
+`>>>run_TM( tf_switch , "S0" , input_switch , 0 )[2]`
 
 # Known issues:
 - Only the computational kernal is provided; should add an interaction shell (I/O)
